@@ -134,7 +134,7 @@ Open your browser and navigate to `http://localhost:5173`.
 ```bash
 npm test
 ```
-Runs 47 automated unit and integration tests across 6 test suites using Vitest.
+Runs 56 automated unit, integration, and E2E tests across 7 test suites using Vitest.
 
 ### Linting
 ```bash
@@ -188,7 +188,8 @@ mini_spreadsheet/
 │   │   ├── formula.test.ts            # Unit tests for formula parser & functions
 │   │   ├── formulaTranslator.test.ts  # Unit tests for fill handle formula translation
 │   │   ├── setup.ts                   # Vitest test environment setup
-│   │   └── SpreadsheetContext.test.tsx# Integration tests for state & interactions
+│   │   ├── SpreadsheetContext.test.tsx# Integration tests for state & interactions
+│   │   └── recruiterE2E.test.tsx      # Comprehensive recruiter E2E flow tests
 │   ├── types/
 │   │   └── spreadsheet.ts             # Core spreadsheet types and interfaces
 │   ├── utils/

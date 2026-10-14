@@ -5,7 +5,7 @@
 This take-home assignment implements a complete, browser-based Mini Spreadsheet application adhering to all requirements in the specification, including both the **Core Requirements** and all **Advanced Optional Requirements**.
 
 - **Framework**: React 19 + TypeScript + Vite 8
-- **Test Suite**: Vitest (47 tests passing across 6 test files)
+- **Test Suite**: Vitest (56 tests passing across 7 test files)
 - **Linting**: Oxlint (0 warnings, 0 errors)
 - **GitHub Repository**: [https://github.com/suppcodes/mini_spreadsheet.git](https://github.com/suppcodes/mini_spreadsheet.git)
 
@@ -49,8 +49,8 @@ This take-home assignment implements a complete, browser-based Mini Spreadsheet 
 
 ### Test Execution Summary
 - **Test Runner**: Vitest v5.0.4 with JSDOM
-- **Total Test Files**: 6 passed (100%)
-- **Total Tests**: 47 passed (100%)
+- **Total Test Files**: 7 passed (100%)
+- **Total Tests**: 56 passed (100%)
 
 ```
  ✓ src/test/coordinates.test.ts (7 tests)
@@ -59,10 +59,10 @@ This take-home assignment implements a complete, browser-based Mini Spreadsheet 
  ✓ src/test/formula.test.ts (19 tests)
  ✓ src/test/dependency.test.ts (7 tests)
  ✓ src/test/SpreadsheetContext.test.tsx (4 tests)
-
- Test Files  6 passed (6)
-      Tests  47 passed (47)
-   Duration  5.22s
+ ✓ src/test/recruiterE2E.test.tsx (9 tests)
+ Test Files  7 passed (7)
+      Tests  56 passed (56)
+   Duration  10.24s
 ```
 
 ### Lint Checks
