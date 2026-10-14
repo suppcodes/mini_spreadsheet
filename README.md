@@ -8,8 +8,8 @@ A powerful, high-performance, browser-based spreadsheet application inspired by 
 
 ## 🌟 Live Demo & Repository
 
-- **GitHub Repository**: [https://github.com/suppcodes/mini_spreadsheet.git](https://github.com/suppcodes/mini_spreadsheet.git)
-- **Live Deployment**: Deployed on Vercel
+- **Live Application**: [https://mini-spreadsheet-lyart.vercel.app/](https://mini-spreadsheet-lyart.vercel.app/)
+- **GitHub Repository**: [https://github.com/suppcodes/mini_spreadsheet](https://github.com/suppcodes/mini_spreadsheet)
 
 ---
 

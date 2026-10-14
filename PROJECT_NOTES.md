@@ -90,6 +90,7 @@ This take-home assignment implements a complete, browser-based Mini Spreadsheet 
 
 ## 5. Submission Details
 
-- **Candidate Repo**: `https://github.com/suppcodes/mini_spreadsheet.git`
+- **Live Deployment**: [https://mini-spreadsheet-lyart.vercel.app/](https://mini-spreadsheet-lyart.vercel.app/)
+- **Candidate Repo**: [https://github.com/suppcodes/mini_spreadsheet](https://github.com/suppcodes/mini_spreadsheet)
 - **Branch**: `main`
 - **Ready for evaluation**: Full test coverage, clean code architecture, comprehensive documentation.
