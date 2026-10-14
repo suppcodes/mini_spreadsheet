@@ -258,6 +258,7 @@ export const VirtualGrid: React.FC = () => {
 
   // Cell mouse down
   const handleCellMouseDown = (col: number, row: number, e: React.MouseEvent) => {
+    containerRef.current?.focus();
     if (editingCell) {
       commitEdit('none');
     }

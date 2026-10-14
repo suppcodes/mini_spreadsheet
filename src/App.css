@@ -963,3 +963,19 @@
 .btn-primary:hover {
   background-color: var(--primary-hover);
 }
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+  .keyboard-hint {
+    display: none;
+  }
+  .app-subtitle {
+    display: none;
+  }
+  .toolbar-btn.text-btn span {
+    display: none;
+  }
+  .toolbar-btn.text-btn {
+    padding: 0 6px;
+  }
+}

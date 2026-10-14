@@ -177,6 +177,7 @@ export function SpreadsheetProvider({ children }: { children: React.ReactNode })
       navDirection: 'none' | 'down' | 'up' | 'right' | 'left' = 'none',
       overrideValue?: string
     ) => {
+      if (!editingCell && overrideValue === undefined) return;
       const targetCell = editingCell || selectedCell;
       if (!targetCell) return;
 
